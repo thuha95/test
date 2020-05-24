@@ -1,7 +1,7 @@
 var D = new Date();
 var NamSinh, NamHienTai;
-NamHienTai = D.getYear(); //Lưu năm hiện tại vào biến
+NamHienTai = D.getYear();
 do {
     NamSinh = prompt("Bạn sinh năm bao nhiêu : ", "");
-} while (parseInt(NamSinh) > NamHienTai); //Nhập lại nếu Năm sinh>năm hiện tại
+} while (parseInt(NamSinh) > NamHienTai);
 alert("Tuổi của bạn bây giờ là : " + (NamHienTai - NamSinh));
